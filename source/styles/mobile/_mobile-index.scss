@@ -1,0 +1,151 @@
+//Desktop version
+@media screen and (min-width: 1100px) {
+
+}
+
+//Tablet landscape version
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .header {
+    &__item {
+      &:nth-child(3) {
+        width: 360px;
+      }
+    }
+  }
+  .menu {
+    &__button {
+      margin: 13px 0 0 20px;
+      color: #333333;
+      font-size: 21px !important;
+      cursor: pointer;
+      transition: .5s;
+    }
+  }
+  .title {
+    &__text {
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 11px;
+      float: right;
+      margin-right: 70px;
+    }
+  }
+  .options {
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-content: stretch;
+      align-items: flex-end;
+      margin-top: 4px;
+      margin-right: 15px;
+    }
+  }
+
+
+
+  .panel-tab {
+    height: 40px;
+    &__title {
+      margin-top: 8px;
+      font-size: 20px;
+    }
+    &__container-tab {
+      width: 400px;
+      .panel-tab__tab--one,
+      .panel-tab__tab--two {
+        font-size: 18px;
+        padding-top: 10px;
+      }
+    }
+  }
+
+
+
+
+  .main {
+    &__menu-list {
+      width: 200px;
+      height: 576px;
+      .main__item {
+        color: #676767;
+        padding-top: 15px;
+        height: 32px;
+        display: block;
+        border-bottom: 1px solid #d8d8d8;
+        position: relative;
+        padding-left: 50px;
+        cursor: pointer;
+        transition: .5s;
+        font-size: 15px;
+      }
+    }
+    &__content {
+      .main__content-container {
+        padding-top: 25px;
+        .main__title-section {
+          font-size: 20px;
+        }
+        .main__search-section {
+          .main__search {
+            top: -15px;
+            height: 20px;
+          }
+          .main__search {
+            .main__input {
+              font-size: 12px;
+            }
+          }
+          .main__search {
+            .main__submit {
+              top: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main__content-container-options {
+    width: 94%;
+    .main__options-header {
+      height: 40px;
+      .main__options-header--icon {
+        .fa {
+          color: #666666;
+          font-size: 20px;
+          margin-top: 10px;
+          margin-left: 9px;
+        }
+      }
+      .main__options-header--title {
+        font-size: 18px;
+        padding-top: 9px;
+      }
+      .main__options-header--counter {
+        width: 130px;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+        position: relative;
+        left: 51px;
+      }
+    }
+  }
+
+
+
+
+
+}
+
+//Tablet portrait version
+@media screen and (min-width: 700px) and (max-width: 839px) {
+
+}
+
+//Mobile orientation
+@media screen and (max-width: 699px) and (min-width: 320px) {
+
+}
